@@ -1,0 +1,9 @@
+version: '3'
+services:
+  shell:
+    build: .
+    volumes:
+      - './work:/work'
+    working_dir: /work
+    ports:
+      - '4567:4567'
