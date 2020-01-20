@@ -3,5 +3,5 @@ services:
   shell:
     build: .
     volumes:
-      - './work:/work'
-    working_dir: /work
+      - './home:/root'
+    working_dir: /root
